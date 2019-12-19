@@ -1,5 +1,7 @@
 #CrashEye
 
+[![Swift 4.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+
 [![Version](https://img.shields.io/cocoapods/v/CrashEye.svg?style=flat)](http://cocoapods.org/pods/CrashEye)
 [![License](https://img.shields.io/cocoapods/l/CrashEye.svg?style=flat)](http://cocoapods.org/pods/CrashEye)
 [![Platform](https://img.shields.io/cocoapods/p/CrashEye.svg?style=flat)](http://cocoapods.org/pods/CrashEye)
@@ -8,7 +10,7 @@
 CrashEye is an ios crash monitor，automatic catch exception crash & signal crash and return the stacktrace
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/Bogon/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 
@@ -27,14 +29,14 @@ CrashEye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "CrashEye"
+pod 'CrashEye'
 ```
 
 ### Carthage
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "zixun/CrashEye"
+github 'Bogon/CrashEye'
 ```
 
 ## Usage
@@ -53,6 +55,14 @@ extension ViewController: CrashEyeDelegate {
     }
 }
 ```
+
+## 维护者
+
+name: Bogon
+
+email: zhanqgixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
 
 ## Author
 
